@@ -1,0 +1,25 @@
+[
+    {
+        "first_name" : "Jody",
+        "last_name" : "Mantap",
+        "location" : "Muara Enim",
+        "online" : true,
+        "followers" : 672 
+    },
+
+    {
+        "first_name" : "Diajeng Rezky",
+        "last_name" : "Amalia",
+        "location" : "Palembang",
+        "online" : true,
+        "followers" : 3037 
+    },
+
+    {
+        "first_name" : "John",
+        "last_name" : "Doe",
+        "location" : "Bandung",
+        "online" : false,
+        "followers" : 100 
+    }
+]
