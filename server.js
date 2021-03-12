@@ -8,6 +8,9 @@ const server = http.createServer(async (req, res) => {
     let arrayCat = [];
     let arrayPeople = [];
     let arrayFlowers = [];
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');
+    res.setHeader('Access-Control-Max-Age', 2592000);
     await axios.get(
             "http://api.flickr.com/services/feeds/photos_public.gne?tags=all&format=json&nojsoncallback=true"
             )
