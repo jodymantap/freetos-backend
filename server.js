@@ -55,6 +55,8 @@ const server = http.createServer(async (req, res) => {
     }
 });
 
+module.exports = server;
+
 const PORT = process.env.PORT || 5000; // Declare the port between selected port (deployment) or 5000 (local).
 
 server.listen(PORT, () => {console.log('Server running on port 5000')});
